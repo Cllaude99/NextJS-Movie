@@ -72,17 +72,8 @@ export interface Book {
 }
 
 export interface BuyLink {
-  name: Iyap;
+  name: string;
   url: string;
-}
-
-export enum Iyap {
-  Amazon = 'Amazon',
-  AppleBooks = 'Apple Books',
-  BarnesAndNoble = 'Barnes and Noble',
-  BooksAMillion = 'Books-A-Million',
-  Bookshop = 'Bookshop',
-  IndieBound = 'IndieBound',
 }
 
 export interface Isbn {
