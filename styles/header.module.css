@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  border: 2px solid lightslategray;
+  border-radius: 3px;
+  padding: 10px 30px;
+}
+
+.nav div ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav div ul li {
+  text-decoration: underline;
+}

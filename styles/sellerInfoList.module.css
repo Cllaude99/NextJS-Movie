@@ -1,0 +1,41 @@
+.books {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+.books img {
+  width: 100%;
+  height: 400px;
+}
+.books div {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.booktitle {
+  margin: 10px 0px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.author {
+  padding: 5px;
+  text-transform: uppercase;
+  color: cornflowerblue;
+  font-size: 14px;
+}
+
+.bookurl {
+  padding: 5px;
+  width: 40%;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 3px;
+  margin-bottom: 3px;
+}
