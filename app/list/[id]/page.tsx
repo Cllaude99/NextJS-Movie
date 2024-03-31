@@ -72,11 +72,11 @@ export interface Book {
 }
 
 export interface BuyLink {
-  name: Name;
+  name: IName;
   url: string;
 }
 
-export enum Name {
+export enum IName {
   Amazon = 'Amazon',
   AppleBooks = 'Apple Books',
   BarnesAndNoble = 'Barnes and Noble',
